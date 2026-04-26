@@ -244,12 +244,12 @@ class RiskEvaluatorNode(Node):
         # Camera proxy
         # These must be supplied explicitly from the active platform YAML.
         # Do not silently inherit legacy SEANO BIMA30 values here.
-        self.declare_parameter("camera_hfov_deg", -1.0)
+        self.declare_parameter("camera_hfov_deg", 67.5)
 
         # Domain
-        self.declare_parameter("center_band_ratio", -1.0)
-        self.declare_parameter("bottom_danger_ratio", -1.0)
-        self.declare_parameter("near_area_ratio", -1.0)
+        self.declare_parameter("center_band_ratio", 0.35)
+        self.declare_parameter("bottom_danger_ratio", 0.45)
+        self.declare_parameter("near_area_ratio", 0.50)
 
         # Risk weights
         self.declare_parameter("w_proximity", 0.40)

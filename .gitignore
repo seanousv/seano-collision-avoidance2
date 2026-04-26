@@ -26,7 +26,6 @@ seano_event_logs/
 # Non-hardware demo/test launch files
 seano_ca_ws/src/seano_vision/launch/demo_full_ca.launch.py
 seano_ca_ws/src/seano_vision/launch/phase2_camera_source_test.launch.py
-seano_ca_ws/src/seano_vision/launch/phase2_camera_usb_test.launch.py
 
 # Non-hardware baseline config
 seano_ca_ws/src/seano_vision/config/alfin7_baseline.yaml
